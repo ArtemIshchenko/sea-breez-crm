@@ -3,38 +3,38 @@ Sea breeze CRM
 CRM system for managing projects.
 The system is designed using Vue.js and Yii2 frameworks.
 
-![projects](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/e0820fd8-11aa-49a5-b257-345f2709bdac)
+![projects](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/3f3b6d97-8667-43a0-9a64-76c62693fd89)
+
 
 Each project has such information as: Name, Author, attached manager, designer, address, coordinates and so on.
 
-![proj](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/d32fe176-dd0f-4816-bbb3-223a09a90228)
+![proj](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/e699d057-8f58-4202-8b52-3810fbd3a78d)
 
-![proj_edit](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/324178ca-173f-4639-a31a-cb4cd401dfc6)
+![proj_edit](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/38a1fcc3-18fa-4ffd-b88a-8656eccb497d)
 
 
 A project can have attached files of technical tasks, specifications, and so on.
 
-![proj_files](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/cd3c47ea-e6b8-4557-8716-03081ac1000d)
+![proj_files](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/2bdade9f-efe8-4204-bc21-f93ee21f8a96)
 
 
 A project page location
 
-![proj_loc](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/d005c6a2-6852-4f99-8448-116fc5403ed7)
+![proj_loc](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/703c9f8b-758a-4147-9bd3-485f5839869d)
 
 
 Admin can manage other users
 
-![users](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/d39a8a81-8611-46cc-8ef9-04996338508a)
+![users](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/6b432500-500d-431b-9264-9ea03babd52e)
 
 
 Each user has next data
 
-![user](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/b0733474-f18e-4a59-9ed9-7e438f442061)
+![user](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/ed7998f3-f5d7-46f4-9df2-fb30971edb79)
 
-![user_edit](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/645b5d4d-4db7-4029-9cbe-73a3018cb41c)
+![user_edit](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/4549a599-88b0-4052-8725-7999ed78850d)
 
 
 A page user profile
 
-![profile](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/02c7bffd-44e7-4acd-b71d-98615db95be8)
-
+![profile](https://github.com/ArtemIshchenko/sea-breez-crm/assets/16707541/de4bc8bb-9e88-4519-b3d8-592a33379fa2)
