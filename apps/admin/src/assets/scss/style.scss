@@ -1,0 +1,19 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// Import Bootstrap Vue Styles
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+// Import custom files
+@import "reboot";
+@import "grid";
+@import "cards";
+@import "footer";
+
+// ie fixes
+@import "ie-fix";
+
+@import "custom";

@@ -1,0 +1,18 @@
+// Styles for core.php layout
+
+// If you want to override variables do it here
+@import "variables";
+
+// Import core styles
+// Later unnecessary imports may be removed
+@import "node_modules/@coreui/coreui/scss/coreui";
+
+
+// Import icons
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
+// @import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+// @import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+
+// If you want to add something do it here
+@import "custom";

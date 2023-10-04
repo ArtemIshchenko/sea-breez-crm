@@ -1,0 +1,67 @@
+.card {
+  .card-header {
+    .card-menu {
+      display: -ms-flexbox !important;
+      display: flex !important;
+
+      .nav.nav-tabs {
+        margin-top: -0.25rem;
+
+        .nav-link {
+          &.active {
+            border-top: 1px solid $nav-tabs-border-color;
+          }
+          &:focus {
+            border-top: 1px solid $nav-tabs-border-color;
+          }
+          &:hover {
+            border: 1px solid $nav-tabs-border-color;
+          }
+        }
+      }
+
+      .card-menu-toggler {
+        display: none;
+      }
+
+      &.minimized {
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+
+        ul {
+          li {
+            position: relative;
+            a:not(.active) {
+              // display: none;
+              // We need to preserve element width for js but hide it
+              position: absolute;
+              left: -9999px;
+              height: 0px;
+            }
+          }
+        }
+
+        .card-menu-toggler {
+          display: block;
+
+          & > .btn {
+            padding: 0.25rem 0.5rem;
+          }
+
+          .toggler-icon {
+            display: inline-block;
+            width: 1.5rem;
+            height: 1.5rem;
+            vertical-align: middle;
+            content: "";
+            background: no-repeat center center;
+            background-image: none;
+            background-size: auto auto;
+            background-size: 100% 100%;
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23536c79' stroke-width='2.25' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+          }
+        }
+      }
+    }
+  }
+}

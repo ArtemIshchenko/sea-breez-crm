@@ -1,0 +1,15 @@
+// Bootstrap form validation fix
+.form-group.is-invalid .form-control {
+  border-color: #f86c6b;
+}
+
+// Table headers fix
+.table {
+  th {
+    overflow-wrap: normal;
+  }
+}
+
+.comment-author-hidden {
+  font-style: italic;
+}

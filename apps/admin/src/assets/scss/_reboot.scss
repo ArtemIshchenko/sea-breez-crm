@@ -1,0 +1,26 @@
+dt, dd {
+  margin-bottom: .75rem;
+}
+.sidebar .nav-link:hover, .sidebar-minimized .sidebar .nav-link:hover {
+    background-color: coral;
+}
+.sidebar .nav-link.active .nav-icon {
+    color: coral;
+}
+.sidebar .nav-link.active:hover .nav-icon {
+    color: white;
+}
+.btn-outline-primary {
+    color: coral;
+    border-color: coral;
+}
+.btn-outline-primary:hover, .btn-primary, .btn-primary:hover {
+    background-color: coral;
+    border-color: coral;
+}
+a, a:hover {
+    color: coral;
+}
+.badge-primary {
+    background-color: coral;
+}

@@ -1,0 +1,20 @@
+// Bootstrap 4 fixes
+// .form-group.is-invalid > .input-group ~ .invalid-feedback, .form-group.is-invalid > .input-group ~ .valid-feedback  {
+//   display: block;
+// }
+// .form-group.is-invalid > .input-group .input-group-text {
+//   border-color: $danger;
+// }
+.form-group {
+  &.is-invalid {
+    > .invalid-feedback {
+      display: block;
+    }
+    > .input-group .input-group-text {
+      border-color: $danger;
+    }
+  }
+}
+.alert-dismissible {
+  padding-right: ($close-font-size + $alert-padding-x);
+}
